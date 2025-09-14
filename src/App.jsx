@@ -1,5 +1,6 @@
 import Bienvenidos from "./components/Bienvenidos";
 import TeoriaComponente from "./components/TeoriaComponente";
+import Contador from "./components/Contador";
 function App() {
   //aqui agrego la logica del componente
   const modulo = 2
@@ -10,6 +11,7 @@ function App() {
       {/* <Bienvenidos></Bienvenidos> */}
       <Bienvenidos/>
       <TeoriaComponente comision='Web 13' modulo={modulo}/>
+      <Contador/>
     </main>
   );
 }
