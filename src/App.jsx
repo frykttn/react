@@ -1,7 +1,16 @@
-
+import Bienvenidos from "./components/Bienvenidos";
+import TeoriaComponente from "./components/TeoriaComponente";
 function App() {
-  return <h1>Hola mundo</h1>
-
+  //aqui agrego la logica del componente
+  return (
+    // aqui puedo agregar mas logica
+    <main className="container my-5">
+      <h1>Hola mundo</h1>
+      {/* <Bienvenidos></Bienvenidos> */}
+      <Bienvenidos/>
+      <TeoriaComponente/>
+    </main>
+  );
 }
 
-export default App
+export default App;
