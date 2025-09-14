@@ -17,7 +17,7 @@ const TeoriaComponente = ({comision, modulo}) => {
         de interfaces interactivas, donde los cambios en los datos se reflejan
         automáticamente en la interfaz de usuario.
       </p>
-      <div class="alert alert-primary" role="alert">
+      <div className="alert alert-primary" role="alert">
        Comision: {comision} Modulo: {modulo}
       </div>
     </section>
